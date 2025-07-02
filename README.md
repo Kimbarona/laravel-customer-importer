@@ -40,7 +40,7 @@ Configure your .env and database
 
 Run php atisan serve
 
-Run migrations using this command "php artisan doctrine:schema:update --force"
+Run migrations (if using DBAL schema tool)
 
 Run php artisan import:customers
 
