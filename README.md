@@ -38,8 +38,10 @@ Run composer install
 
 Configure your .env and database
 
-Run migrations (if using DBAL schema tool)
+Run php atisan serve
 
-Run php artisan import:customers 10
+Run migrations using this command "php artisan doctrine:schema:update --force"
+
+Run php artisan import:customers
 
 Access the API at /api/customers
